@@ -1,0 +1,105 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/112/610/351/minimalistic-dark-wood-wood-texture-1680x1050-abstract-textures-hd-art-wallpaper-preview.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 10px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 150px;
+  }
+  
+  .alura-logo {
+    width: 55px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+  }
+  
+  #listaFilmes img:hover{
+    transform: scale(1.2);
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  #mensagemDeErro{
+    color: red;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    top: 5px;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  .tituloFilmes{
+    color: white; 
+    font-family:"Arial";
+    font-size: 60px;
+    
+  }
+  
+  #final {
+    display: inline-flex;
+    flex-direction: column;
+    color: white;
+    margin: 2em 2em;
+  }
+  
+  h3 {
+    color: white;
+    font-size: "Times New Roman", Georgia, serif;
+    margin: 40px 0 0 0;
+  }
+  
+  img {
+    max-height: 250px;
+    max-width: 100%;
+  }
+  
+  img:hover{
+    transform: scale(1.2);
+  }
